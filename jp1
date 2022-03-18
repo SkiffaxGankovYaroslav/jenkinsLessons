@@ -1,5 +1,5 @@
 node {
-    agent any
+    //agent any
     def PROJECT_NAME = "Red Alert" // a plain string
     def OWNER_NAME = "Skiff1"
 //    def mvnHome
