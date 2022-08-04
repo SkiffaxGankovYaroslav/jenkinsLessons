@@ -3,10 +3,10 @@ node {
     def PROJECT_NAME = "Red Alert" // a plain string
     def OWNER_NAME = "Skiff1"
 //    def mvnHome
-    stage('1Preparation') { // for display purposes
+    stage('1PreparationOfSkiffComp') { // for display purposes
         echo "Preparation"
         }
-    stage('2Build') {
+    stage('2Build (second stage)') {
         // Run the maven build
         echo "Build"
         echo "Hello ${OWNER_NAME}"
