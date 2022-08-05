@@ -5,8 +5,8 @@ node {
 //    def mvnHome
     stage('1PreparationOfSkiffComp') { // for display purposes
         echo "Preparation"
-        hostname
-        sleep 5
+        //hostname
+        //sleep 5
         }
     stage('2Build (second stage)') {
         // Run the maven build
