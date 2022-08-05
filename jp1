@@ -5,7 +5,6 @@ node {
 //    def mvnHome
     stage('1PreparationOfSkiffComp') { // for display purposes
         echo "Preparation"
-        ip a
         hostname
         sleep 5
         }
