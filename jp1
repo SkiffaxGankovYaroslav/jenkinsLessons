@@ -10,7 +10,6 @@ node {
         sleep 5
         }
     stage('2Build (second stage)') {
-        // Run the maven build
         echo "Build"
         echo "Hello ${OWNER_NAME}"
         echo "Hello ${PROJECT_NAME}"
